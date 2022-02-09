@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ee22692.css",
+    "main.js": "/static/js/main.9fddfab6.js",
+    "static/media/herosection-bg.png": "/static/media/herosection-bg.7e1ddaca31926031587f.png",
+    "static/media/downloadsection-image.png": "/static/media/downloadsection-image.a92aaa644817ebb0ac55.png",
+    "static/media/mobile-image.png": "/static/media/mobile-image.923fcd0ff92b23fbee2f.png",
+    "static/media/explorevarieties-image_withoutshadow.png": "/static/media/explorevarieties-image_withoutshadow.1ab3561a5b6264ce1e26.png",
+    "static/media/checkout-image_withoutshadow.png": "/static/media/checkout-image_withoutshadow.454171567322ec666ce4.png",
+    "static/media/createanaccount-image_withoutshadow.png": "/static/media/createanaccount-image_withoutshadow.528f31611319099c3f90.png",
+    "static/media/Logo1.png": "/static/media/Logo1.65024c342e740d6077c8.png",
+    "index.html": "/index.html",
+    "main.9ee22692.css.map": "/static/css/main.9ee22692.css.map",
+    "main.9fddfab6.js.map": "/static/js/main.9fddfab6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee22692.css",
+    "static/js/main.9fddfab6.js"
+  ]
+}
