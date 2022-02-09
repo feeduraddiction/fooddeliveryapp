@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fooddeliveryapp/static/css/main.90dc2b3e.css",
-    "main.js": "/fooddeliveryapp/static/js/main.ad9df149.js",
+    "main.css": "/fooddeliveryapp/static/css/main.b86c5e22.css",
+    "main.js": "/fooddeliveryapp/static/js/main.98837b47.js",
     "static/media/herosection-bg.png": "/fooddeliveryapp/static/media/herosection-bg.7e1ddaca31926031587f.png",
     "static/media/downloadsection-image.png": "/fooddeliveryapp/static/media/downloadsection-image.a92aaa644817ebb0ac55.png",
-    "static/media/mobile-image.png": "/fooddeliveryapp/static/media/mobile-image.923fcd0ff92b23fbee2f.png",
+    "static/media/mobile-image.png": "/fooddeliveryapp/static/media/mobile-image.4aa96f416a81e6ac4623.png",
     "static/media/explorevarieties-image_withoutshadow.png": "/fooddeliveryapp/static/media/explorevarieties-image_withoutshadow.1ab3561a5b6264ce1e26.png",
     "static/media/checkout-image_withoutshadow.png": "/fooddeliveryapp/static/media/checkout-image_withoutshadow.454171567322ec666ce4.png",
     "static/media/createanaccount-image_withoutshadow.png": "/fooddeliveryapp/static/media/createanaccount-image_withoutshadow.528f31611319099c3f90.png",
     "static/media/Logo1.png": "/fooddeliveryapp/static/media/Logo1.65024c342e740d6077c8.png",
     "index.html": "/fooddeliveryapp/index.html",
-    "main.90dc2b3e.css.map": "/fooddeliveryapp/static/css/main.90dc2b3e.css.map",
-    "main.ad9df149.js.map": "/fooddeliveryapp/static/js/main.ad9df149.js.map"
+    "main.b86c5e22.css.map": "/fooddeliveryapp/static/css/main.b86c5e22.css.map",
+    "main.98837b47.js.map": "/fooddeliveryapp/static/js/main.98837b47.js.map"
   },
   "entrypoints": [
-    "static/css/main.90dc2b3e.css",
-    "static/js/main.ad9df149.js"
+    "static/css/main.b86c5e22.css",
+    "static/js/main.98837b47.js"
   ]
 }
