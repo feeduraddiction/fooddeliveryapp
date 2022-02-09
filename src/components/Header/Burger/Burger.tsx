@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from "../../UI/Image/Image";
+import Image from "../../UI/Image";
 import Button from "../../UI/Button/Button";
 import BurgerNavigation from "./BurgerNavigation/BurgerNavigation";
 

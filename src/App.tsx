@@ -1,12 +1,16 @@
+import 'module-alias/register';
+
 import React from 'react';
 
-import HeroSection from './components/HeroSection/HeroSection';
-import Header from './components/Header/Header';
-import HowWorks from "./components/HowWorks/HowWorks";
-import DownloadSection from './components/DownloadSection/DownloadSection'
-import Footer from "./components/Footer/Footer";
+import HeroSection from './components/HeroSection';
+import Header from './components/Header';
+import HowWorks from './components/HowWorks';
+import DownloadSection from './components/DownloadSection';
+import Footer from './components/Footer';
 
 import './App.css';
+
+
 
 function App() {
     return (

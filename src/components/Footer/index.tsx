@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../UI/Image/Image";
+import Image from "../UI/Image";
 import P from "../UI/Text/P";
 import Social from "./Social/Social";
 

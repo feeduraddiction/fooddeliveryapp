@@ -2,7 +2,7 @@ import React from 'react';
 
 import './HeroSectionImage.scss'
 
-import Image from "../../../UI/Image/Image";
+import Image from "../../../UI/Image";
 
 function HeroSectionImage(props: any) {
     return(

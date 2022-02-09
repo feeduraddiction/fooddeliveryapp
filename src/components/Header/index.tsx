@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Navigation from './Navigation/Navigation';
-import Image from "../UI/Image/Image";
+import Image from "../UI/Image";
 import Burger from './Burger/Burger';
 
 import './Header.scss'

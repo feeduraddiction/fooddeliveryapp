@@ -1,6 +1,6 @@
 import React from 'react';
 import StepText from "./StepText/StepText";
-import Image from "../../UI/Image/Image";
+import Image from "../../UI/Image/";
 import './Step.scss';
 
 function Step(props: any) {

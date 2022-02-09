@@ -10,7 +10,6 @@ function HeroSection(props: any) {
             <HeroSectionContent/>
             <HeroSectionImage/>
         </div>
-
     )
 }
 
