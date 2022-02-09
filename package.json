@@ -16,7 +16,7 @@
     "react-scripts": "5.0.0",
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4",
-    "homepage": "https://feeduraddiction.github.io/fooddeliveryapp.github.io"
+    "homepage": "https://feeduraddiction.github.io/fooddeliveryapp/fooddeliveryapp.github.io"
   },
   "scripts": {
     "predeploy": "npm run build",
