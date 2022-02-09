@@ -1,0 +1,19 @@
+@import './src/components/Styles/mediaSizes';
+@import './src/components/Styles/colors';
+
+.download-section__text {
+  h2,
+  h4 {
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .download-section__text {
+    h4{
+      color: #bdbdbd;
+    }
+  }
+}
+

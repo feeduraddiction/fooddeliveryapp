@@ -1,0 +1,11 @@
+@import './src/components/Styles/colors';
+
+.header-text {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-text:hover {
+  color: $main-color;
+}

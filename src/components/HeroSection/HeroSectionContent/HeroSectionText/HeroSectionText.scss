@@ -1,0 +1,14 @@
+.hero-section__text {
+  margin-top: 66px;
+  max-width: 900px;
+}
+
+@media (max-width: 414px) {
+  .hero-section__text {
+    max-width: 380px;
+    margin-top: 44px;
+    h3 {
+      font-size: 16px;
+    }
+  }
+}
