@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "../../UI/Image/Image";
+import { SocialIcon} from 'react-social-icons'
 
 import './Social.scss'
 

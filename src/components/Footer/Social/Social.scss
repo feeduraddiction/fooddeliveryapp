@@ -6,5 +6,11 @@
   img {
     margin: 0 13px;
     cursor: pointer;
+    transition: 0.4s ease;
   }
+
+  img:hover{
+    filter: alpha(0.5);
+  }
+
 }

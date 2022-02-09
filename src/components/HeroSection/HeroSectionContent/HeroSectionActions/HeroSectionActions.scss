@@ -11,12 +11,24 @@
     z-index: 5;
   }
 
+  #appstore-button {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  #appstore-button:hover {
+    background-color: $button-hover-color-transparent;
+    border-color: #fff;
+  }
+  #playstore-button:hover {
+    background-color: $button-hover-color;
+    border-color: $button-hover-color;
+  }
+
+
+
 }
 
-#appstore-button {
-  background-color: transparent;
-  border: 1px solid white;
-}
 
 @media (max-width: 667px) {
   .hero-section__actions {
@@ -24,7 +36,7 @@
 
     #appstore-button,
     #playstore-button {
-      margin: 10px 0px;
+      margin: 10px 0;
     }
 
     #appstore-button {

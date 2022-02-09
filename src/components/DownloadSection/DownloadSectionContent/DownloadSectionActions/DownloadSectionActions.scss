@@ -1,4 +1,5 @@
 @import './src/components/Styles/mediaSizes';
+@import './src/components/Styles/colors';
 
 .download-section__actions {
   display: flex;
@@ -17,6 +18,20 @@
 
   #appstore-button {
     padding: 16px 45px;
+  }
+
+  #appstore-button {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  #appstore-button:hover {
+    background-color: $button-hover-color-transparent;
+    border-color: #fff;
+  }
+  #playstore-button:hover {
+    background-color: $button-hover-color;
+    border-color: $button-hover-color;
   }
 }
 

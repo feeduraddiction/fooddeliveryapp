@@ -1,3 +1,5 @@
+@import './src/components/Styles/colors';
+
 .hero-section__content {
   background-image: url('../../img/herosection-bg.png');
   background-repeat: no-repeat;
@@ -5,8 +7,9 @@
 
   text-align: center;
 
+
   width: 100%;
-  height: 650px;
+  padding: 66px 25px 140px 25px;
 
   display: flex;
   flex-direction: column;
@@ -22,8 +25,9 @@
 @media (max-width: 667px) {
   .hero-section__content {
     background-image: none;
-    background-color: #fafafa;
-    height: 778px;
+    background-color: $secondary-color;
+    padding-botton: 200px;
+    //height: 778px;
 
     h1,
     h3,

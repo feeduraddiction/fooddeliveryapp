@@ -1,6 +1,6 @@
 .hero-section__image {
-  width: 600px;
-  margin: -240px 0 0 -150px;
+  width: 550px;
+  margin-top: -110px;
 
   img {
     text-align: center;
@@ -11,14 +11,12 @@
 
 @media(max-width: 767px) {
   .hero-section__image {
-    width: 550px;
-    margin: -155px 0 0 -80px;
+    width: 500px;
   }
 }
 
 @media(max-width: 667px) {
   .hero-section__image {
-    width: 450px;
-    margin-top: -250px;
+    width: 400px;
   }
 }
