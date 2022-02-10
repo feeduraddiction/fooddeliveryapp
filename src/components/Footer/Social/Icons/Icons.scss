@@ -1,0 +1,12 @@
+@import 'src/Styles/colors';
+
+.social-icon{
+  fill: $main-color;
+  transition: 0.3s ease;
+  margin: 0 13px;
+  cursor: pointer;
+}
+
+.social-icon:hover{
+  fill: $button-hover-color;
+}

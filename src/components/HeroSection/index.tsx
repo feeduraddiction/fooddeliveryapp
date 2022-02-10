@@ -4,7 +4,7 @@ import './HeroSection.scss';
 import HeroSectionImage from "./HeroSectionContent/HeroSectionImage/HeroSectionImage";
 import HeroSectionContent from "./HeroSectionContent/HeroSectionContent";
 
-function HeroSection(props: any) {
+function HeroSection() {
     return (
         <div className="hero-section">
             <HeroSectionContent/>

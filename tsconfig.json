@@ -17,10 +17,16 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "baseUrl": ".",
+    "paths" : {
+      "@components/*" : ["./src/components","./src/components/*" ],
+      "@UI/*" : ["./src/components/UI/*"],
+      "@img" : ["./src/assets/img/*"]
+    },
     "noEmit": true,
     "jsx": "react-jsx"
   },
   "include": [
     "src"
-  ]
+  ],
 }

@@ -2,8 +2,12 @@ import React from 'react';
 
 import './H1.scss'
 
-function H1(props:any) {
-    return <h1>{props.children}</h1>
+export interface H1Props {
+    children: string
+}
+
+function H1({children}:H1Props) {
+    return <h1>{children}</h1>
 }
 
 export default H1;

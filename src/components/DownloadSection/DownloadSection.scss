@@ -1,8 +1,8 @@
-@import './src/components/Styles/mediaSizes';
-@import './src/components/Styles/colors';
+@import 'src/Styles/mediaSizes';
+@import 'src/Styles/colors';
 
 .download-section {
-  background-image: url('../img/downloadsection-image.png');
+  background-image: url('../../../src/assets/img/downloadsection-image.png');
   width: 100%;
   background-repeat: no-repeat;
   background-position: center top;

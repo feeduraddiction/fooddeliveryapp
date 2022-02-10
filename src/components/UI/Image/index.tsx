@@ -1,7 +1,17 @@
 import React from 'react';
 
-function Image (props: any) {
-    return <img src={props.src} alt={props.alt} id={props.id}/>
+export interface imageProps {
+    src: string
+    alt: string
+    id?: string
+}
+
+function Image({
+                   src,
+                   alt,
+                   id
+               } : imageProps) {
+    return <img src={src} alt={alt} id={id}/>
 }
 
 export default Image;

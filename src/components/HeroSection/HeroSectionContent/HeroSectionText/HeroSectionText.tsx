@@ -1,8 +1,8 @@
 import React from 'react';
 
-import H1 from '../../../UI/Text/H1';
-import H3 from '../../../UI/Text/H3';
-import H4 from '../../../UI/Text/H4';
+import H1 from '@UI/Text/H1';
+import H3 from '@UI/Text/H3';
+import H4 from '@UI/Text/H4';
 
 import './HeroSectionText.scss';
 

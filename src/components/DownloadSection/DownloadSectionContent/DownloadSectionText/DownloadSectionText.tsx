@@ -1,6 +1,6 @@
 import React from 'react';
-import H2 from "../../../UI/Text/H2";
-import H4 from "../../../UI/Text/H4";
+import H2 from "@UI/Text/H2";
+import H4 from "@UI/Text/H4";
 
 import './DownloadSectionText.scss';
 

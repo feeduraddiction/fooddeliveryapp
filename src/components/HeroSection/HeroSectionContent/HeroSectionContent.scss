@@ -1,7 +1,7 @@
-@import './src/components/Styles/colors';
+@import 'src/Styles/colors';
 
 .hero-section__content {
-  background-image: url('../../img/herosection-bg.png');
+  background-image: url('../../../../src/assets/img/herosection-bg.png');
   background-repeat: no-repeat;
   background-position: center top;
 
@@ -26,7 +26,7 @@
   .hero-section__content {
     background-image: none;
     background-color: $secondary-color;
-    padding-botton: 200px;
+    //padding-botton: 200px;
     //height: 778px;
 
     h1,

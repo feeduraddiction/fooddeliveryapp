@@ -1,11 +1,15 @@
 import React from 'react';
 
-import HeaderText from '../../UI/Text/HeaderText'
+import HeaderText from '@UI/Text/HeaderText'
 
 import './Navigation.scss'
 
-function Navigation(props: any) {
-    return <ul className="navigation" id={props.id}>
+export interface navigationProps {
+    id?: string
+}
+
+function Navigation({id}:navigationProps) {
+    return <ul className="navigation" id={id}>
         <HeaderText>
             Home
         </HeaderText>

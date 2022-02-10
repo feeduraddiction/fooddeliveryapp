@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Title.scss'
-import H1 from "../../UI/Text/H1";
+import H1 from "@UI/Text/H1";
 
 function Title() {
     return <div className="howworks-section__title">

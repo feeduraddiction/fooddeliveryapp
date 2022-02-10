@@ -3,9 +3,11 @@ import Navigation from "../../Navigation/Navigation";
 
 import './BurgerNavigation.scss'
 
-function BurgerNavigation(props: any) {
+export interface burgerNavigationProps {
+    isOpened: boolean
+}
 
-  const isOpened = props.isOpened;
+function BurgerNavigation({isOpened}:burgerNavigationProps) {
 
     return <div className={isOpened ? "burger-nav" : "burger-nav hidden" }>
         <Navigation />

@@ -1,13 +1,15 @@
 import React from 'react';
-import Image from "../../UI/Image";
 
 import './Social.scss'
+import Twitter from "./Icons/Twitter";
+import Facebook from "./Icons/Facebook";
+import Linkedin from "./Icons/Linkedin";
 
 function Social() {
     return <div className="social">
-        <Image src={require('../../img/twitter.png')}/>
-        <Image src={require('../../img/facebook.png')}/>
-        <Image src={require('../../img/instagram.png')}/>
+        <Twitter/>
+        <Facebook/>
+        <Linkedin/>
     </div>
 }
 
