@@ -12,7 +12,7 @@ export interface stepTextProps {
     h4: string
 }
 
-function StepText({h2, h3, h4}: stepTextProps) {
+const StepText = ({h2, h3, h4}: stepTextProps) => {
     return <div className="howworks-section__text">
         <H3>{h3}</H3>
         <H2>{h2}</H2>

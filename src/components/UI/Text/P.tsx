@@ -1,13 +1,10 @@
 import React from 'react';
 
-import './P.scss'
+import './Text.scss'
 
-export interface pProps {
-    children: string
-    id?: string
-}
+import {textProps} from "./textProps";
 
-function P({children, id}:pProps) {
+function P({children, id}: textProps) {
     return <p id={id}>
         {children}
     </p>

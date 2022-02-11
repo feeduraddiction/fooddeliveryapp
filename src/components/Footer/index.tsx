@@ -5,7 +5,7 @@ import Social from "./Social/Social";
 
 import './Footer.scss';
 
-function Footer() {
+const Footer = () => {
     return <div className="footer">
         <Image src={require('@img/Logo1.png')} id="logo" alt="logo"/>
         <Social/>

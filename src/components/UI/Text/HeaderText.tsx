@@ -1,12 +1,10 @@
 import React from 'react';
 
-import './HeaderText.scss'
+import './Text.scss'
 
-export interface HeaderTextProps {
-    children: string
-}
+import {textProps} from "./textProps";
 
-function HeaderText({children}:HeaderTextProps) {
+function HeaderText({children}: textProps) {
     return <li className="header-text">{children}</li>
 }
 

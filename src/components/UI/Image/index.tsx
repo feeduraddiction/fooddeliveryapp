@@ -6,11 +6,11 @@ export interface imageProps {
     id?: string
 }
 
-function Image({
+const Image = ({
                    src,
                    alt,
                    id
-               } : imageProps) {
+               } : imageProps) => {
     return <img src={src} alt={alt} id={id}/>
 }
 

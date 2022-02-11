@@ -4,7 +4,7 @@ import './HeroSectionImage.scss'
 
 import Image from "@UI/Image";
 
-function HeroSectionImage() {
+const HeroSectionImage = () => {
     return(
         <div className="hero-section__image">
             <Image src={require('@img/mobile-image.png')} alt="mobile"/>

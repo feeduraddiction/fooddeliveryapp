@@ -5,7 +5,7 @@ import HeroSectionText from "./HeroSectionText/HeroSectionText";
 import HeroSectionActions from "./HeroSectionActions/HeroSectionActions";
 
 
-function HeroSection() {
+const HeroSection = () => {
     return(
             <div className="hero-section__content">
                 <HeroSectionText/>

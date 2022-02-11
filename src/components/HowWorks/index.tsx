@@ -5,7 +5,7 @@ import Title from './Title/Title';
 
 import './HowWorks.scss'
 
-function HowWorks() {
+const HowWorks = () => {
     return <div className="howworks-section">
         <Title />
         <Step

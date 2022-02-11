@@ -3,7 +3,7 @@ import DownloadSectionContent from "./DownloadSectionContent/DownloadSectionCont
 
 import './DownloadSection.scss';
 
-function DownloadSection() {
+const DownloadSection = () => {
     return <div className="download-section">
         <DownloadSectionContent/>
     </div>

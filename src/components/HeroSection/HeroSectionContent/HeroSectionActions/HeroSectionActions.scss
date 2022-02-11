@@ -1,4 +1,5 @@
 @import 'src/Styles/colors';
+@import 'src/Styles/mediaSizes';
 
 .hero-section__actions {
   display: flex;
@@ -30,7 +31,7 @@
 }
 
 
-@media (max-width: 667px) {
+@media (max-width: $breakpoint-mobile) {
   .hero-section__actions {
     flex-direction: column;
 

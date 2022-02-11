@@ -1,8 +1,10 @@
+@import 'src/Styles/mediaSizes';
+
 .hero-section__text {
   max-width: 900px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: $breakpoint-mobile-small) {
   .hero-section__text {
     max-width: 380px;
     margin-top: 44px;

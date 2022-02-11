@@ -5,7 +5,7 @@ import BurgerNavigation from "./BurgerNavigation/BurgerNavigation";
 
 import './Burger.scss'
 
-function Burger() {
+const Burger = () => {
     const [isOpened, setIsOpened] = useState(false);
 
     const showMenuHandler = () => {

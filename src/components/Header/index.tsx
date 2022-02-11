@@ -6,7 +6,7 @@ import Burger from './Burger/Burger';
 
 import './Header.scss'
 
-function Header() {
+const Header = () => {
 
     return <header className="header">
         <Image id="logo" alt="logo" src={require('@img/Logo1.png')}/>

@@ -1,12 +1,10 @@
 import React from 'react';
 
-import './H1.scss'
+import './Text.scss'
 
-export interface H1Props {
-    children: string
-}
+import {textProps} from "./textProps";
 
-function H1({children}:H1Props) {
+function H1({children}: textProps) {
     return <h1>{children}</h1>
 }
 

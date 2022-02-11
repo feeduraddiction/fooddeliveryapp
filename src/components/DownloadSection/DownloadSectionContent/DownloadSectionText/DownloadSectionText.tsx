@@ -5,7 +5,7 @@ import H4 from "@UI/Text/H4";
 import './DownloadSectionText.scss';
 
 
-function DownloadSectionText() {
+const DownloadSectionText = () => {
     return <div className="download-section__text">
         <H2>Download the app now.</H2>
         <H4>Available on your favorite store. Start your premium experience now</H4>

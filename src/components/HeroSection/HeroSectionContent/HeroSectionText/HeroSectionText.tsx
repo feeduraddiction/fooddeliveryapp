@@ -6,7 +6,7 @@ import H4 from '@UI/Text/H4';
 
 import './HeroSectionText.scss';
 
-function HeroSectionText() {
+const HeroSectionText = () => {
     return <div className="hero-section__text">
         <H3>Food app</H3>
         <H1>Why stay hungry when

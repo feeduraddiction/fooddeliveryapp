@@ -8,7 +8,7 @@ export interface navigationProps {
     id?: string
 }
 
-function Navigation({id}:navigationProps) {
+const Navigation = ({id}:navigationProps) => {
     return <ul className="navigation" id={id}>
         <HeaderText>
             Home

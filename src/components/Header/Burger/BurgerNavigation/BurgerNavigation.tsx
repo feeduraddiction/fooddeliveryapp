@@ -7,7 +7,7 @@ export interface burgerNavigationProps {
     isOpened: boolean
 }
 
-function BurgerNavigation({isOpened}:burgerNavigationProps) {
+const BurgerNavigation = ({isOpened}:burgerNavigationProps) => {
 
     return <div className={isOpened ? "burger-nav" : "burger-nav hidden" }>
         <Navigation />

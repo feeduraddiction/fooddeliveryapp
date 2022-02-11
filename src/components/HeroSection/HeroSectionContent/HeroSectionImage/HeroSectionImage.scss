@@ -1,3 +1,5 @@
+@import 'src/Styles/mediaSizes';
+
 .hero-section__image {
   width: 550px;
   margin-top: -110px;
@@ -15,7 +17,7 @@
   }
 }
 
-@media(max-width: 667px) {
+@media(max-width: $breakpoint-mobile) {
   .hero-section__image {
     width: 400px;
   }

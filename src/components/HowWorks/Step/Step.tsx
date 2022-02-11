@@ -12,7 +12,7 @@ export interface stepProps{
     h4: string
 }
 
-function Step({id, src, alt, h2, h3, h4}: stepProps) {
+const Step = ({id, src, alt, h2, h3, h4}: stepProps) => {
     return <div id={id}className="howworks-section__content">
         <Image src={src} alt={alt} />
         <StepText

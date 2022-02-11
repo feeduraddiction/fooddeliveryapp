@@ -1,12 +1,10 @@
 import React from 'react';
 
-import './H4.scss'
+import './Text.scss'
 
-export interface H4Props {
-    children: string
-}
+import {textProps} from './textProps';
 
-function H4({children}:H4Props) {
+function H4({children}: textProps) {
     return <h4>{children}</h4>
 }
 

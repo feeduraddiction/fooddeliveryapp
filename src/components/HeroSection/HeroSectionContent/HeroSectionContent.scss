@@ -1,4 +1,5 @@
 @import 'src/Styles/colors';
+@import 'src/Styles/mediaSizes';
 
 .hero-section__content {
   background-image: url('../../../../src/assets/img/herosection-bg.png');
@@ -22,12 +23,11 @@
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: $breakpoint-mobile) {
   .hero-section__content {
     background-image: none;
     background-color: $secondary-color;
-    //padding-botton: 200px;
-    //height: 778px;
+
 
     h1,
     h3,

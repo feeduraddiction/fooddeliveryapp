@@ -5,7 +5,7 @@ import Twitter from "./Icons/Twitter";
 import Facebook from "./Icons/Facebook";
 import Linkedin from "./Icons/Linkedin";
 
-function Social() {
+const Social = () => {
     return <div className="social">
         <Twitter/>
         <Facebook/>
