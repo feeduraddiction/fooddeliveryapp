@@ -4,7 +4,7 @@ import './Text.scss'
 
 import {textProps} from './textProps';
 
-function H3({children}: textProps) {
+const H3 = ({children}: textProps) => {
     return <h3>{children}</h3>
 }
 

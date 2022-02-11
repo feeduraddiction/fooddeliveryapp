@@ -4,7 +4,7 @@ import './Text.scss'
 
 import {textProps} from "./textProps";
 
-function P({children, id}: textProps) {
+const P = ({children, id}: textProps) => {
     return <p id={id}>
         {children}
     </p>

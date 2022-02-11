@@ -4,7 +4,7 @@ import './Text.scss'
 
 import {textProps} from './textProps';
 
-function H4({children}: textProps) {
+const H4 = ({children}: textProps) => {
     return <h4>{children}</h4>
 }
 
