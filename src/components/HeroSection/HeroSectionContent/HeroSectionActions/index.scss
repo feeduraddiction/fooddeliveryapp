@@ -1,0 +1,49 @@
+@import 'src/Styles/colors';
+@import 'src/Styles/mediaSizes';
+
+.hero-section__actions {
+  display: flex;
+  flex-direction: row;
+  margin-top: 54px;
+
+  #appstore-button,
+  #playstore-button {
+    margin: 0 17px;
+    z-index: 5;
+  }
+
+  #appstore-button {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  #appstore-button:hover {
+    background-color: $button-hover-color-transparent;
+    border-color: #fff;
+  }
+  #playstore-button:hover {
+    background-color: $button-hover-color;
+    border-color: $button-hover-color;
+  }
+
+
+
+}
+
+
+@media (max-width: $breakpoint-mobile) {
+  .hero-section__actions {
+    flex-direction: column;
+
+    #appstore-button,
+    #playstore-button {
+      margin: 10px 0;
+    }
+
+    #appstore-button {
+      color: $main-color;
+      border-color: $main-color;
+
+    }
+  }
+}

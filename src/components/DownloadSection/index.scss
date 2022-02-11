@@ -1,0 +1,25 @@
+@import 'src/Styles/mediaSizes';
+@import 'src/Styles/colors';
+
+.download-section {
+  background-image: url('../../../src/assets/img/downloadsection-image.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 25px;
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+  .download-section{
+    background-image: none;
+    background-color: $background-color-download;
+  }
+}
+

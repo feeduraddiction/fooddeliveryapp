@@ -1,0 +1,39 @@
+@import 'src/Styles/colors';
+@import 'src/Styles/mediaSizes';
+
+.hero-section__content {
+  background-image: url('../../../../src/assets/img/herosection-bg.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  text-align: center;
+
+
+  width: 100%;
+  padding: 66px 25px 140px 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1,
+  h3,
+  h4 {
+    color: white;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .hero-section__content {
+    background-image: none;
+    background-color: $secondary-color;
+
+
+    h1,
+    h3,
+    h4 {
+      color: black;
+    }
+  }
+}
+

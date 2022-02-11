@@ -1,0 +1,45 @@
+@import 'src/Styles/mediaSizes';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 155px;
+  padding: 0 50px 0 90px;
+
+  #main {
+    max-width: 493px;
+    padding-inline-start: 20px;
+  }
+
+  #logo {
+    height: 100px;
+  }
+
+  .burger-menu{
+    display: none;
+  }
+
+}
+
+
+
+@media (max-width: $breakpoint-tablet) {
+  .header {
+    height: 113px;
+    padding: 0 25px;
+
+    #logo {
+      height: 50px;
+    }
+
+    #main {
+      display: none;
+    }
+
+    .burger-menu {
+      display: block;
+    }
+  }
+}

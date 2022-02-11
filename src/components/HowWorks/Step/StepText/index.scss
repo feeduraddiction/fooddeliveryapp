@@ -1,0 +1,27 @@
+@import 'src/Styles/mediaSizes';
+@import 'src/Styles/colors';
+
+.howworks-section__text {
+  max-width: 550px;
+
+  h3 {
+    color: $main-color;
+  }
+
+  h4 {
+    color: $secondary-text-color;
+    font-weight: 400;
+  }
+}
+
+@media(max-width: $breakpoint-tablet) {
+  .howworks-section__text {
+    max-width: 100%;
+
+    h3,
+    h4,
+    h2 {
+      text-align: center;
+    }
+  }
+}

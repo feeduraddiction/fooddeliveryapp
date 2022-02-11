@@ -1,14 +1,14 @@
-import React from 'react';
-
-import HeroSection from './components/HeroSection/HeroSection';
-import Header from './components/Header/Header';
-import HowWorks from "./components/HowWorks/HowWorks";
-import DownloadSection from './components/DownloadSection/DownloadSection'
-import Footer from "./components/Footer/Footer";
+import {
+    Header,
+    HeroSection,
+    HowWorks,
+    DownloadSection,
+    Footer,
+} from './components';
 
 import './App.css';
 
-function App() {
+const App = () => {
     return (
         <div className="app">
             <Header/>

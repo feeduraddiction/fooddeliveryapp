@@ -1,9 +1,12 @@
-import React from 'react';
+import './Text.scss'
 
-import './HeaderText.scss'
+interface headerTextProps {
+    children: string
+    id? : string
+}
 
-function HeaderText(props: any) {
-    return <li className="header-text">{props.children}</li>
+const HeaderText = ({children}: headerTextProps) => {
+    return <li className="header-text">{children}</li>
 }
 
 export default HeaderText;
