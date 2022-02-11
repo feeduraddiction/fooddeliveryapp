@@ -1,7 +1,6 @@
-import React from 'react';
-import DownloadSectionContent from "./DownloadSectionContent/DownloadSectionContent";
+import DownloadSectionContent from "./DownloadSectionContent";
 
-import './DownloadSection.scss';
+import './index.scss';
 
 const DownloadSection = () => {
     return <div className="download-section">

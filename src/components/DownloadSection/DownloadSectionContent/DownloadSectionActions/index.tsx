@@ -1,7 +1,6 @@
-import React from 'react';
 import Button from '@UI/Button';
 
-import './DownloadSectionActions.scss'
+import './index.scss'
 
 
 const DownloadSectionActions = () => {

@@ -1,7 +1,6 @@
-import React from 'react';
 import Button from "@UI/Button";
 
-import './HeroSectionActions.scss';
+import './index.scss';
 
 const HeroSectionActions = () => {
     return <div className="hero-section__actions">

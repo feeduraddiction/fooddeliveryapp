@@ -1,7 +1,6 @@
-import React from 'react';
-import StepText from "./StepText/StepText";
+import StepText from "./StepText";
 import Image from "@UI/Image";
-import './Step.scss';
+import './index.scss';
 
 interface stepProps{
     id: string

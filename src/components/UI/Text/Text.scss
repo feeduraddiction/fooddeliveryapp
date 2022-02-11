@@ -1,34 +1,4 @@
-@import 'src/Styles/mediaSizes';
 @import 'src/Styles/colors';
-
-
-h1{
-  font-size: 58px;
-  font-weigth: 700;
-  margin: 11px 0;
-}
-
-h2{
-  font-size: 40px;
-  font-weigth: 700;
-}
-
-h3{
-  font-size: 24px;
-  font-weigth: 700;
-  margin: 6px 0;
-}
-
-h4{
-  font-size: 24px;
-  font-weight: 500;
-  margin: 16px 0;
-}
-
-.p {
-  font-size: 12px;
-  font-weight: 300;
-}
 
 .header-text {
   font-size: 16px;
@@ -40,10 +10,3 @@ h4{
 .header-text:hover {
   color: $main-color;
 }
-
-@media (max-width: $breakpoint-mobile) {
-  h1 {
-    font-size: 36px;
-  }
-}
-

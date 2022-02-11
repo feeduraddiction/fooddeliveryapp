@@ -1,8 +1,7 @@
-import React from 'react';
+import './index.scss';
 
-import './HeroSection.scss';
-import HeroSectionImage from "./HeroSectionContent/HeroSectionImage/HeroSectionImage";
-import HeroSectionContent from "./HeroSectionContent/HeroSectionContent";
+import HeroSectionImage from "./HeroSectionContent/HeroSectionImage";
+import HeroSectionContent from "./HeroSectionContent";
 
 const HeroSection = () => {
     return (

@@ -1,8 +1,6 @@
-import React from 'react';
-
-import './HeroSectionImage.scss'
-
 import Image from "@UI/Image";
+
+import './index.scss'
 
 const HeroSectionImage = () => {
     return(

@@ -1,8 +1,6 @@
-import React from 'react';
-
 import HeaderText from '@UI/Text/HeaderText'
 
-import './Navigation.scss'
+import './index.scss'
 
 interface navigationProps {
     id?: string

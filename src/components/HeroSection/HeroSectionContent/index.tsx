@@ -1,9 +1,7 @@
-import React from 'react';
+import HeroSectionText from "./HeroSectionText";
+import HeroSectionActions from "./HeroSectionActions";
 
-import './HeroSectionContent.scss'
-import HeroSectionText from "./HeroSectionText/HeroSectionText";
-import HeroSectionActions from "./HeroSectionActions/HeroSectionActions";
-
+import './index.scss'
 
 const HeroSection = () => {
     return(

@@ -1,10 +1,11 @@
-import React from 'react';
-
 import './Text.scss'
 
-import {textProps} from "./textProps";
+interface headerTextProps {
+    children: string
+    id? : string
+}
 
-const HeaderText = ({children}: textProps) => {
+const HeaderText = ({children}: headerTextProps) => {
     return <li className="header-text">{children}</li>
 }
 

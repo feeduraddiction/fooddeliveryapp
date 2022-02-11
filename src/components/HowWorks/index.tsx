@@ -1,9 +1,7 @@
-import React from 'react';
+import Step from './Step';
+import Title from './Title';
 
-import Step from './Step/Step';
-import Title from './Title/Title';
-
-import './HowWorks.scss'
+import './index.scss'
 
 const HowWorks = () => {
     return <div className="howworks-section">

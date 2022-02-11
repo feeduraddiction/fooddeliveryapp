@@ -1,16 +1,14 @@
-import React from 'react';
 import Image from "@UI/Image";
-import P from "@UI/Text/P";
-import Social from "./Social/Social";
+import Social from "./Social";
 
-import './Footer.scss';
+import './index.scss';
 
 const Footer = () => {
     return <div className="footer">
         <Image src={require('@img/Logo1.png')} id="logo" alt="logo"/>
         <Social/>
-        <P id="onmind">Just type what's on your mind and we'll </P>
-        <P id="copyright">Copyright 2020 Bella Onojie.com</P>
+        <p id="onmind">Just type what's on your mind and we'll </p>
+        <p id="copyright">Copyright 2020 Bella Onojie.com</p>
     </div>
 }
 

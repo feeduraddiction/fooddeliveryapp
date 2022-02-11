@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Image from "@UI/Image";
 import Button from "@UI/Button";
-import BurgerNavigation from "./BurgerNavigation/BurgerNavigation";
+import BurgerNavigation from "./BurgerNavigation";
 
-import './Burger.scss'
+import './index.scss'
 
 const Burger = () => {
     const [isOpened, setIsOpened] = useState(false);

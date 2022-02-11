@@ -1,10 +1,8 @@
-import React from 'react';
-
-import Navigation from './Navigation/Navigation';
+import Navigation from './Navigation';
 import Image from "@UI/Image";
-import Burger from './Burger/Burger';
+import Burger from './Burger';
 
-import './Header.scss'
+import './index.scss'
 
 const Header = () => {
 

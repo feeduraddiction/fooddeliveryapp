@@ -1,5 +1,5 @@
-import React from "react";
-import './Button.scss';
+import React from 'react';
+import './index.scss';
 
 interface ButtonProps {
     id?: string

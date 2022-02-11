@@ -1,7 +1,6 @@
-import React from "react";
-import Navigation from "../../Navigation/Navigation";
+import Navigation from "../../Navigation";
 
-import './BurgerNavigation.scss'
+import './index.scss'
 
 interface burgerNavigationProps {
     isOpened: boolean
