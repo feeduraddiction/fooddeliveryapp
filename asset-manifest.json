@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fooddeliveryapp/static/css/main.48fb8908.css",
-    "main.js": "/fooddeliveryapp/static/js/main.4777f49d.js",
+    "main.css": "/fooddeliveryapp/static/css/main.5097ddcd.css",
+    "main.js": "/fooddeliveryapp/static/js/main.3dd510b2.js",
     "static/media/herosection-bg.png": "/fooddeliveryapp/static/media/herosection-bg.7e1ddaca31926031587f.png",
     "static/media/downloadsection-image.png": "/fooddeliveryapp/static/media/downloadsection-image.a92aaa644817ebb0ac55.png",
     "static/media/mobile-image.png": "/fooddeliveryapp/static/media/mobile-image.4aa96f416a81e6ac4623.png",
@@ -10,11 +10,11 @@
     "static/media/createanaccount-image_withoutshadow.png": "/fooddeliveryapp/static/media/createanaccount-image_withoutshadow.528f31611319099c3f90.png",
     "static/media/Logo1.png": "/fooddeliveryapp/static/media/Logo1.65024c342e740d6077c8.png",
     "index.html": "/fooddeliveryapp/index.html",
-    "main.48fb8908.css.map": "/fooddeliveryapp/static/css/main.48fb8908.css.map",
-    "main.4777f49d.js.map": "/fooddeliveryapp/static/js/main.4777f49d.js.map"
+    "main.5097ddcd.css.map": "/fooddeliveryapp/static/css/main.5097ddcd.css.map",
+    "main.3dd510b2.js.map": "/fooddeliveryapp/static/js/main.3dd510b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.48fb8908.css",
-    "static/js/main.4777f49d.js"
+    "static/css/main.5097ddcd.css",
+    "static/js/main.3dd510b2.js"
   ]
 }
