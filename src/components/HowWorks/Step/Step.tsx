@@ -3,7 +3,7 @@ import StepText from "./StepText/StepText";
 import Image from "@UI/Image";
 import './Step.scss';
 
-export interface stepProps{
+interface stepProps{
     id: string
     src: string
     alt: string

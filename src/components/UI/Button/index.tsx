@@ -1,20 +1,22 @@
 import React from "react";
 import './Button.scss';
 
-export interface ButtonProps {
+interface ButtonProps {
     id?: string
     children?: React.ReactNode
     onClick?: (e: React.MouseEvent) => void
+    type?: "button" | "submit" | "reset" | undefined
 }
 
 const Button = ({
                     id,
                     children,
                     onClick,
+                    type,
                 }: ButtonProps) => {
 
     return (
-        <button id={id} className="button" onClick={onClick}>
+        <button id={id} type={type} className="button" onClick={onClick}>
             {children}
         </button>
     );

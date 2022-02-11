@@ -1,10 +1,12 @@
 import React from 'react';
 
-import Header from '@components/Header';
-import HeroSection from '@components/HeroSection';
-import HowWorks from '@components/HowWorks';
-import DownloadSection from '@components/DownloadSection';
-import Footer from '@components/Footer';
+import {
+    Header,
+    HeroSection,
+    HowWorks,
+    DownloadSection,
+    Footer,
+} from './components';
 
 import './App.css';
 

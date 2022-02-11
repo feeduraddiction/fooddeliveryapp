@@ -6,7 +6,7 @@ import H4 from "@UI/Text/H4";
 
 import './StepText.scss';
 
-export interface stepTextProps {
+interface stepTextProps {
     h2: string
     h3: string
     h4: string

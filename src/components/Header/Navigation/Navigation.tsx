@@ -4,7 +4,7 @@ import HeaderText from '@UI/Text/HeaderText'
 
 import './Navigation.scss'
 
-export interface navigationProps {
+interface navigationProps {
     id?: string
 }
 

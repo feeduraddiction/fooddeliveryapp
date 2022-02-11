@@ -3,7 +3,7 @@ import Navigation from "../../Navigation/Navigation";
 
 import './BurgerNavigation.scss'
 
-export interface burgerNavigationProps {
+interface burgerNavigationProps {
     isOpened: boolean
 }
 
